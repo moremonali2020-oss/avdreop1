@@ -3,6 +3,10 @@ name: First_workflow
 
 # set trigger
 on:
+   push:
+     branches:
+          - main
+
    workflow_dispatch:
 
 jobs:
